@@ -1,0 +1,30 @@
+{
+  "name": "iac",
+  "version": "0.0.0",
+  "description": "",
+  "type": "module",
+  "bin": "dist/bin.js",
+  "engines": {
+    "node": "^v18.16.0",
+    "npm": "^9.6.5"
+  },
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^10.0.1",
+    "esbuild": "^0.17.18",
+    "lodash-es": "^4.17.21"
+  },
+  "devDependencies": {
+    "@tsconfig/esm": "^1.0.3",
+    "@tsconfig/node-lts": "^18.12.1",
+    "@tsconfig/strictest": "^2.0.1",
+    "@types/lodash-es": "^4.17.7",
+    "@types/node": "^18.16.1",
+    "typescript": "^5.0.4"
+  }
+}
