@@ -2,7 +2,6 @@
   "name": "iac",
   "version": "0.0.0",
   "description": "",
-  "type": "module",
   "bin": "dist/bin.js",
   "engines": {
     "node": "^v18.16.0",
@@ -20,7 +19,6 @@
     "lodash-es": "^4.17.21"
   },
   "devDependencies": {
-    "@tsconfig/esm": "^1.0.3",
     "@tsconfig/node-lts": "^18.12.1",
     "@tsconfig/strictest": "^2.0.1",
     "@types/lodash-es": "^4.17.7",

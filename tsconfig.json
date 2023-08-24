@@ -1,8 +1,9 @@
 {
-  "extends": ["@tsconfig/node-lts", "@tsconfig/esm", "@tsconfig/strictest"],
+  "extends": ["@tsconfig/node-lts", "@tsconfig/strictest"],
   "exclude": ["node_modules", "dist"],
   "compilerOptions": {
     "outDir": "dist",
-    "baseUrl": "src"
+    "baseUrl": "src",
+    "sourceMap": true
   }
 }
