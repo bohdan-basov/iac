@@ -6,5 +6,6 @@ export async function build(base: string, outdir: string) {
     outdir: outdir,
     platform: "node",
     bundle: true,
+    packages: "external",
   });
 }
