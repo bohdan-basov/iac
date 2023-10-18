@@ -1,11 +1,14 @@
-import { build as esbuild } from "esbuild";
+import { build as esbuild } from 'esbuild';
+import { esbuildPlugin } from './plugin';
 
 export async function build(base: string, outdir: string) {
   await esbuild({
     entryPoints: [base],
     outdir: outdir,
-    platform: "node",
+    platform: 'node',
     bundle: true,
-    packages: "external",
+    packages: 'external',
+    write: false,
+    plugins: [esbuildPlugin()],
   });
 }
