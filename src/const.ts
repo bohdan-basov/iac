@@ -1,1 +1,1 @@
-export const LIB_NAME = '@iac/aws' as const;
+export const LIB_NAME = '@simple-cloud/aws' as const;
