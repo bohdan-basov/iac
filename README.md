@@ -20,7 +20,7 @@
       "args": ["build"],
       "preLaunchTask": "npm: build",
       "outFiles": ["${workspaceFolder}/dist/**/*.js", "!**/node_modules/**"],
-      "console": "integratedTerminal",
+      "console": "internalConsole",
       "cwd": "", // Test project path
       "env": {
         "NODE_OPTIONS": "--enable-source-maps"
