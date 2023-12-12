@@ -5,7 +5,7 @@ import { LIB_NAME } from '../const';
 
 import { getHandle, getOptions, getReferences, Reference } from './utils';
 
-type State = {
+export type State = {
   createdResources: {
     name: string;
     options: unknown[];
